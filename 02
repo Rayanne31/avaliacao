@@ -1,0 +1,27 @@
+important java.util.scanner;
+
+    public class ConversoesTemperaturs {
+    public static void main(String[] args) {
+        Scanner inup = new scanner(system.in);
+        
+   //entrada da temperatura em celcius
+      system.out.print("Digite a temperatura em celsius °c:");
+        double celsius= inup.nextDouble();
+        
+//conversões   
+        double fahrinhut=(celsius 9/5)+32;
+        double kelsius= celsius+273,15;
+        
+// exibição dos resultados
+        system.out.printf("Temperaturs em celsius:%..1f e/n", celsius);
+        system.out.printf("Temperaturs em fahrihit:%1f °f/n");
+        system.out.printf("Temeoraturs em kelsius:%2f k/n", kelsius);
+    }
+        inup.clor();
+    }
+}
+        
+        
+        
+    
+}
